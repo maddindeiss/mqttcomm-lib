@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Erweka.Io.Mqtt", "src\Erweka.Io.Mqtt\Erweka.Io.Mqtt.csproj", "{9C9F6FB1-B2CE-486C-8364-848713D42EFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Erweka.Io.Mqtt.Tests", "tests\Erweka.Io.Mqtt.Tests\Erweka.Io.Mqtt.Tests.csproj", "{5181115F-72C2-4F8B-B2A6-AA04D6FFD4D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C9F6FB1-B2CE-486C-8364-848713D42EFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C9F6FB1-B2CE-486C-8364-848713D42EFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C9F6FB1-B2CE-486C-8364-848713D42EFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C9F6FB1-B2CE-486C-8364-848713D42EFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5181115F-72C2-4F8B-B2A6-AA04D6FFD4D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5181115F-72C2-4F8B-B2A6-AA04D6FFD4D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5181115F-72C2-4F8B-B2A6-AA04D6FFD4D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5181115F-72C2-4F8B-B2A6-AA04D6FFD4D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
