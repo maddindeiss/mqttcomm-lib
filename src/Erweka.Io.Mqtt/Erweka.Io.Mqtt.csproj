@@ -5,7 +5,6 @@
     <LangVersion>10</LangVersion>
     <Configurations>Debug;Release;Any CPU</Configurations>
     <Platforms>AnyCPU</Platforms>
-    <CodeAnalysisRuleSet>./../../ErwekaDefault.ruleset</CodeAnalysisRuleSet>
     <OutputType>Library</OutputType>
   </PropertyGroup>
 
@@ -21,10 +20,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="6.0.0">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
     <PackageReference Include="MQTTnet" Version="3.1.0" />
     <PackageReference Include="Serilog" Version="2.10.0" />
     <PackageReference Include="Serilog.Sinks.Console" Version="4.0.1" />

@@ -5,7 +5,6 @@
     <LangVersion>10</LangVersion>
     <Configurations>Debug;Release;Any CPU</Configurations>
     <Platforms>AnyCPU</Platforms>
-    <CodeAnalysisRuleSet>./../../ErwekaDefault.ruleset</CodeAnalysisRuleSet>
     <OutputType>Library</OutputType>
     <IsPackable>false</IsPackable>
   </PropertyGroup>
@@ -22,10 +21,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="6.0.0">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.0.0" />
     <PackageReference Include="SonarAnalyzer.CSharp" Version="8.32.0.39516">
       <PrivateAssets>all</PrivateAssets>
