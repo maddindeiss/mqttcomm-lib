@@ -316,15 +316,15 @@ dotnet_diagnostic.CA1401.severity = error
 # Avoid excessive inheritance
 dotnet_diagnostic.CA1501.severity = none
 # Avoid excessive complexity
-dotnet_diagnostic.CA1502.severity = none
+dotnet_diagnostic.CA1502.severity = warning
 # Avoid unmaintainable code
-dotnet_diagnostic.CA1505.severity = none
+dotnet_diagnostic.CA1505.severity = warning
 # Avoid excessive class coupling
-dotnet_diagnostic.CA1506.severity = none
+dotnet_diagnostic.CA1506.severity = warning
 # Use nameof to express symbol names
 dotnet_diagnostic.CA1507.severity = error
 # Avoid dead conditional code
-dotnet_diagnostic.CA1508.severity = none
+dotnet_diagnostic.CA1508.severity = warning
 # Invalid entry in code metrics rule specification file
 dotnet_diagnostic.CA1509.severity = none
 # Identifiers should not contain underscores
@@ -573,3 +573,7 @@ dotnet_diagnostic.CA5385.severity = error
 dotnet_diagnostic.CA5386.severity = none
 # Analyzer version mismatch
 dotnet_diagnostic.CA9999.severity = error
+
+# SonarLint
+dotnet_diagnostic.S4586.severity = error
+dotnet_diagnostic.S112.severity = error
